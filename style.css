@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    text-align: center;
+    font-size: 18px;
+
+}
+
+body{
+    background: rgb(51, 51, 51);
+    color:rgb(255, 255, 255);
+    font-size: 1rem;
+
+}
+
+.conteudo{
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width:620px;
+    background: rgb(78, 78, 78);
+    padding: 35px;
+    border-radius: 17px;
+}
+
+#topo{
+    margin-bottom: 25px;
+}
+
+#topo form{
+    justify-content: space-between;
+    align-items: center;
+} 
+
+#topo input{
+    width:100%;
+    max-width: 461px;
+    height: 67px;
+    padding: 15px;
+    border-radius: 17px;
+    border: 1px solid rgb(78, 78, 78);
+    outline: none;
+    font-size: 1.1rem;
+    background: rgb(36, 33, 33);
+    color:rgb(255, 255, 255);
+    
+}
+
+@media screen and (max-width: 600px){
+    #topo input{
+        width: 100%;
+        max-width: 360px;
+    }
+}
+
+#topo button {
+    width: 60px;
+    height: 50px;
+    margin-left: auto;
+    border-radius: 50px;
+    border: 1px solid rgb(71, 68, 68);
+    background: rgb(36, 33, 33);
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+    
+} 
+
+#topo button:hover{
+    background: rgb(95, 56, 146);
+    cursor: pointer;
+}
+
+#listaItens{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#listaItens li{
+    height: 70px;
+    width:100%;
+    max-width: 490px;
+    padding: 30px;
+    background: rgb(36, 33, 33);
+    border-radius: 17px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 3px;
+}
+
+#topo button.btn-close{
+    width: 20px;
+    height: 22px;
+    border-radius: 8px;
+
+}
+
+button#modal.btn-primary{
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+}
+
+#topo div.modal-content{
+    background: rgb(126, 125, 125);
+}
+
+#topo ul#listaItens{
+    display: inline-block;
+
+}
+
+#topo button.btnAcao{
+    margin-left: auto;
+
+}
+
+#topo button.btnAcao2{
+    margin-left: 5px;
+
+}
